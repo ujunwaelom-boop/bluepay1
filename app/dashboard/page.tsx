@@ -597,7 +597,7 @@ export default function DashboardPage() {
           `}</style>
           <button
             onClick={() => {
-              window.open("https://wa.me/2349167089066?text=Hi,%20I%20would%20like%20to%20contact%20BLUEPAY%20MOBILE%20customer%20representative", "_blank")
+              window.open("https://chat.whatsapp.com/CBNqoGML6jZ8qmxIeu9D16?s=cl&p=a&ilr=1", "_blank")
               setShowJoinGroup(false)
             }}
             className="relative w-16 h-16 rounded-full shadow-2xl transform transition-transform hover:scale-110 overflow-hidden border-4 border-white"
@@ -698,7 +698,7 @@ export default function DashboardPage() {
 
               <button
                 onClick={() => {
-                  window.open("https://chat.whatsapp.com/FKn3uJPVnrs9WL6Cp4Torf", "_blank")
+                  window.open("https://chat.whatsapp.com/CBNqoGML6jZ8qmxIeu9D16?s=cl&p=a&ilr=1", "_blank")
                   setShowSocial(false)
                 }}
                 className="w-full flex items-center gap-4 p-4 text-white rounded-xl hover:opacity-90 transition-colors"
