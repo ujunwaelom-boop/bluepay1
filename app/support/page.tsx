@@ -106,7 +106,7 @@ export default function SupportPage() {
   }
 
   const handleWhatsAppSupport = () => {
-    window.open("https://chat.whatsapp.com/CBNqoGML6jZ8qmxIeu9D16?s=cl&p=a&ilr=1", "_blank")
+    window.open("https://chat.whatsapp.com/FlVqv2OrivX3VO75MhfJ0X?s=cl&p=a&mlu=4&ilr=4", "_blank")
   }
 
   const handleCallSupport = () => {
@@ -114,7 +114,7 @@ export default function SupportPage() {
   }
 
   const handleJoinCommunity = () => {
-    window.open("https://chat.whatsapp.com/CBNqoGML6jZ8qmxIeu9D16?s=cl&p=a&ilr=1", "_blank")
+    window.open("https://chat.whatsapp.com/FlVqv2OrivX3VO75MhfJ0X?s=cl&p=a&mlu=4&ilr=4", "_blank")
   }
 
   return (
