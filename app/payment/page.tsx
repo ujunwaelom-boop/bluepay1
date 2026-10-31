@@ -25,7 +25,7 @@ export default function PaymentPage() {
     setUserData({
       fullName: storedUserData.fullName || "User",
       email: storedUserData.email || "user@example.com",
-      amount: paymentData.amount || "8,500.00",
+      amount: paymentData.amount || "₦10,850.00",
     })
 
     const timer = setTimeout(() => {
@@ -79,7 +79,7 @@ export default function PaymentPage() {
   }
 
   const copyAccountNumber = () => {
-    navigator.clipboard.writeText("6711230988")
+    navigator.clipboard.writeText("0150934472")
   }
 
   return (
@@ -142,13 +142,13 @@ export default function PaymentPage() {
             <div className="space-y-4 mb-6">
               <div>
                 <label className="block text-gray-600 text-sm font-medium mb-1">Bank:</label>
-                <p className="text-gray-800 font-semibold">MONIEPOINT MFB</p>
+                <p className="text-gray-800 font-semibold">Sterling Bank</p>
               </div>
 
               <div>
                 <label className="block text-gray-600 text-sm font-medium mb-1">Account Number:</label>
                 <div className="flex items-center justify-between bg-gray-50 p-3 rounded-lg">
-                  <p className="text-gray-800 font-semibold">6711230988</p>
+                  <p className="text-gray-800 font-semibold">0150934472</p>
                   <button onClick={copyAccountNumber} className="text-blue-600 hover:text-blue-800">
                     <Copy size={20} />
                   </button>
@@ -157,7 +157,7 @@ export default function PaymentPage() {
 
               <div>
                 <label className="block text-gray-600 text-sm font-medium mb-1">Name:</label>
-                <p className="text-gray-800 font-semibold">MOD... CH... AGB (BLUEPAY2026 Agent)</p>
+                <p className="text-gray-800 font-semibold">CH.... MA..</p>
               </div>
             </div>
 
